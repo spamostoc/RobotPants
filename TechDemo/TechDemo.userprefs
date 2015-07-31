@@ -1,7 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\weapon.js">
     <Files>
+      <File FileName="Assets\weapon.js" Line="17" Column="169" />
       <File FileName="Assets\bullt.js" Line="13" Column="25" />
       <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" Line="34" Column="81" />
       <File FileName="Assets\targetDummy.js" Line="1" Column="1" />
@@ -9,7 +10,6 @@
       <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" Line="1" Column="1" />
       <File FileName="Assets\pause.js" Line="1" Column="1" />
       <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\playerController.js" Line="1" Column="1" />
-      <File FileName="Assets\weapon.js" Line="13" Column="61" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

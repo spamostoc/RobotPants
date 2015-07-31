@@ -3,14 +3,20 @@
 private var tr : Transform;
 public var offset : Vector3 = Vector3.zero;;
 public var parent : Transform;
+public var modelrotation : Quaternion;
+public var smoothVel : Vector3 = Vector3.zero;
+public var smoothTime : float;
 
 function Start () {
 	tr = transform;
 	parent = Camera.main.transform;
+	modelrotation = Quaternion.AngleAxis(90, Vector3.right);
 }
 
 function Update () {
-	tr.position = parent.position + offset + parent.forward * 5;
+	tr.position = Vector3.SmoothDamp( tr.position, parent.position + parent.forward * offset.z + parent.up * offset.y + parent.right * offset.x , smoothVel , smoothTime );
+	
+	tr.rotation = parent.rotation * modelrotation;
 }
 
 
